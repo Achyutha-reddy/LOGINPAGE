@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./IMAGES/purplemountain.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.registration-login{
+  width: 70%;
+  background: white;
+  border: 2px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  color: black;
+  border-radius: 10px;
+  padding :30px 30px 80px 80px;
+  margin: 25px;
+}
+.registration-login p{
+    background: purple;
+    padding-left: 8px;
+    width: fit-content;
+    margin-left: 1250px;
+    color: aliceblue;
+}
+.registration-form{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: start;
+    font-style: oblique;
+}
+.registration-form h1{
+    padding-bottom: 40px;
+}
+.registration-login p{
+    text-align: end;
+    font-size: medium;
+    font-weight: 900;
+    padding-right: 5px;
+}
+.registration-login p a{
+    text-decoration: none;
+    font-weight: 900;
+}
+.lname,.fname,.surname,.father-name,.mother-name,.gender,
+.dob,.mail,.pincode{
+    height: 40px;
+}
+.button{
+    padding: 15px;
+}
+.button button{
+    font-weight: 900;
+    font-style: oblique;
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+    border-radius: 10px;
+    background: url("./IMAGES/purplemountain.jpg");
+}
+.registration-form ::placeholder{
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    height: 20px;
+}
